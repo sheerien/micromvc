@@ -1,0 +1,20 @@
+{
+    "name": "micro/mvc",
+    "description": "minimal mvc php",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/",
+            "Micro\\Mvc\\": "src/"
+        }
+    },
+    "authors": [{
+        "name": "sheerien",
+        "email": "freemebabaj@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "symfony/var-dumper": "6.0.x-dev"
+    }
+}
